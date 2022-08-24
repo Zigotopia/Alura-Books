@@ -1,0 +1,164 @@
+.carrossel_titulo {
+    color: #EB9B00;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.3rem 0 0.5rem 0;
+    background-color: white;
+}
+
+.swiper-wrapper {
+    height: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.8rem 0;
+}
+
+.cartão {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1.5rem;
+}
+
+.descrição {
+    display: flex;
+    padding: 1rem;
+
+}
+
+
+
+.descrição_sugestão {
+    color: #EB9B00;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: .6rem;
+}
+
+.descrição_titulo {
+    color: rgba(0, 47, 82, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: .6rem;
+}
+
+.descrição_texto {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+    size: 14px;
+    line-height: 21px;
+
+}
+
+.cartão_imagem{
+    padding-left: 1rem;
+
+}
+        
+.cartão_botões {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 1rem 1.3rem 1.6rem;
+}
+
+.botões_icones {
+    display: flex;
+    gap: 1.7rem;
+    position: relative;
+    top: 0.5rem;
+
+}
+
+.botão-laranja {
+    background-color: rgba(235, 155, 0, 1);
+    color: white;
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    text-decoration: none;
+    width: auto;
+
+}
+
+.avaliação{
+    padding-bottom: 0.5rem;
+}
+
+
+@media screen and (min-width: 1024px){
+
+    
+    .carrossel_titulo{
+        font-size: 26px;
+        padding: 50px 0 20px 0;
+    }
+
+    .swiper-pagination{
+        margin: 32px 0 57px 0;
+    }
+   
+    .swiper{
+        width: 60%;
+        ;
+        
+    }
+    .swiper-wrapper{
+        padding: 1rem;
+    }
+
+    
+    .swiper-slide img{
+        width: 80%;
+    }
+
+    .cartão{
+        width: 50%;
+        margin: 55px auto;
+    }
+
+}
+
+
+@media screen and (min-width: 1728px){
+    .carrossel_container{
+        display: flex;
+        margin-inline: 15vw;
+        margin-block: 5vh;
+        gap: 2rem;
+        align-items: center;
+        
+        
+    }
+
+    .cartão{
+        width: 60%;
+        
+   
+     
+    }
+
+    .swiper-pagination{
+        margin: 0;
+    }
+
+    .swiper{
+        width: 75%;
+        ;
+        
+    }
+}

@@ -1,0 +1,76 @@
+.banner{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); /* background é mais utlizado quando nao usamos somente uma cor para o fundo*/
+    text-align: center; /*text align alinha nao somente os textos mais todos os elementos inline*/
+    padding: 2rem 2rem;
+    color: white;
+    
+}
+
+.banner_titulo{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner_texto{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.banner_pesquisa{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 0.7rem;
+    width:100% ;
+    color: white;
+    
+    
+
+}                       /* utilizamos a subclasse placeholder para alterar o texto*/
+.banner_pesquisa::placeholder{
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    opacity: 85;
+    background: url(../img/Vector.svg) no-repeat;
+    font-family: 'Poppins', sans-serif;
+    background-position: 2rem;
+    font-weight: 400;
+    font-size: 14px;
+    ;
+    
+    
+    
+    
+}
+
+@media  screen and (min-width: 1024px) {
+    .banner{
+        padding: 84px;
+    }
+    .banner_titulo{
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .banner_pesquisa{
+        width: 47%;
+        padding: 1rem;
+    }
+
+    .banner_pesquisa::placeholder{
+        background-position: 17%;
+    }
+    
+}
+
+@media  screen and (min-width: 1728px){
+    .banner{
+        padding-inline: 17vw;
+    }
+
+    
+ 
+
+
+
+}
